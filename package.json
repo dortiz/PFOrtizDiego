@@ -1,8 +1,13 @@
 {
-  "name": "preentrega3ortizdiego",
+  "name": "pfortizdiego",
   "version": "1.0.0",
-  "description": "pre entre 3 ortiz diego",
+  "description": "Proyecto Final Ortiz",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
@@ -10,17 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dortiz/PreEntrega3OrtizDiego.git"
+    "url": "git+https://github.com/dortiz/PFOrtizDiego.git"
   },
   "author": "Ortiz Diego",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dortiz/PreEntrega3OrtizDiego/issues"
+    "url": "https://github.com/dortiz/PFOrtizDiego/issues"
   },
-  "homepage": "https://github.com/dortiz/PreEntrega3OrtizDiego#readme",
-  "devDependencies": {
-    "node-sass": "^7.0.3",
-    "nodemon": "^2.0.20"
-  },
-  "dependencies": {}
+  "homepage": "https://github.com/dortiz/PFOrtizDiego#readme"
 }
