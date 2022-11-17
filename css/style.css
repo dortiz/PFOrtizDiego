@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "GillSansStd-Light";
+  src: url(../fonts/GillSansStd-Light.otf); }
+
+/*---Inicio Navbar---*/
+.navbar {
+  background-color: #dc3545; }
+
+#sombralogo {
+  filter: brightness(20%); }
+
+.nav-link {
+  color: white;
+  text-shadow: 0 0 5px #000;
+  text-transform: uppercase; }
+  .nav-link:hover {
+    color: white !important; }
+
+/*---Fin Navbar---*/
+/*---Seccion Index---*/
+.cabecera {
+  background-image: url(../images/crash.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  color: whitesmoke;
+  text-shadow: 0 0 10px #0f0f0f;
+  text-transform: capitalize;
+  text-align: center; }
+  .cabecera h1 {
+    padding-top: 200px; }
+
+/*---Seccion Contactos---*/
+/*---Seccion Preguntas---*/
+/*---seccion Productos----*/
+.productos {
+  padding-top: 10px; }
+
+.card {
+  background-color: #a6a6b43b;
+  padding-top: 10px; }
+  .card img {
+    filter: brightness(0%); }
+
+.card-title {
+  color: black;
+  text-shadow: 0 0 5px #0f0f0f;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.jumbo-productos {
+  background-image: url(../images/crash-1308575_960_720.jpg);
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 0 5px #e9e6e6;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5rem; }
+
+/*---Seccion Quien Soy---*/
+.h-quien-soy {
+  text-align: center;
+  margin-top: 40px; }
+
+/*---Inicio Footer---*/
+footer {
+  background-color: #dc3545;
+  text-align: center;
+  padding-top: 10px; }
+
+/*---Fin Footer---*/
+* {
+  font-family: "GillSansStd-Light"; }
+
+body {
+  background-color: #a6a6b43b; }

@@ -1,0 +1,22 @@
+$bg-color_footer-nav: #dc3545;
+$font: "GillSansStd-Light";
+$bg-color_fondo-page: #a6a6b43b;
+
+@font-face {
+	font-family: "GillSansStd-Light";
+	src: url(../fonts/GillSansStd-Light.otf);
+}
+
+@import "navbar.scss";
+@import "index.scss";
+@import "contacto.scss";
+@import "preguntas.scss";
+@import "productos.scss";
+@import "quien-soy.scss";
+@import "footer.scss";
+* {
+	font-family: $font;
+}
+body {
+	background-color: $bg-color_fondo-page;
+}
