@@ -8,6 +8,7 @@ $bg-color_card: #a6a6b43b;
 .card {
 	background-color: $bg-color_card;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	img {
 		filter: brightness(0%);
 	}
@@ -27,4 +28,5 @@ $bg-color_card: #a6a6b43b;
 	text-transform: capitalize;
 	text-align: center;
 	font-size: 1.5rem;
+
 }

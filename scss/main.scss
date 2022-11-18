@@ -14,9 +14,12 @@ $bg-color_fondo-page: #a6a6b43b;
 @import "productos.scss";
 @import "quien-soy.scss";
 @import "footer.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss"; 
+
 * {
 	font-family: $font;
 }
 body {
 	background-color: $bg-color_fondo-page;
 }
+

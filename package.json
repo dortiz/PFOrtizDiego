@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Proyecto Final Ortiz",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
